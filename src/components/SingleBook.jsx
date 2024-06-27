@@ -8,6 +8,7 @@ const SingleBook = (props) => {
         <Card.Img variant="top" src={props.bCover} />
         <Card.Body>
           <Card.Title>{props.bTitle}</Card.Title>
+          <CardText>{props.bGenre}</CardText>
         </Card.Body>
       </Card>
     </Col>
